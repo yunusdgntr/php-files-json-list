@@ -13,8 +13,8 @@ if(is_dir($dir)){
             if($file == "." or $file == ".."){
                 //...
             } else { 
-                $list3 = array(
-                'file' => 'images/'.$file;
+           $list3 = array(
+                'file' => $file);
                 array_push($list, $list3);
             }
         }}
